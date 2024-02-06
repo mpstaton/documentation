@@ -43,9 +43,13 @@ Strapi periodically releases code improvements through upgrades. Upgrades contai
 
     ```
 
-2. Save the edited `package.json` file.
+    IMPORTANT NOTICE, IF YOU HAVE PLUGINS ALREADY INSTALLED ETC, THEN PLEASE WRITE THE PACKAGE.JSON LIKE THIS.
 
-3. <InstallCommand components={props.components} />
+    STRAPI IS BUILT ON A SPECIFIC NODE VERSION, THE EXACT SYNTAX OF THE ENGINE SECTION SHOULD BE LIKE THIS:
+
+3. Save the edited `package.json` file.
+
+4. <InstallCommand components={props.components} />
 
 ## Rebuild the application
 
